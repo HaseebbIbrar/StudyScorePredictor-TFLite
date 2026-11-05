@@ -1,6 +1,6 @@
 # StudyScore Predictor (TensorFlow Lite, on-device)
 
-AI-based mini Android application built for Assignment No. 2: AI-Based Mini Application
+AI-based mini Android application built AI-Based Mini Application
 Development, Integrating ML/DL Models into Android with TensorFlow Lite.
 
 The app predicts a student's likely exam score from the number of hours they plan to
