@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StudyScore Predictor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On-device TFLite demo: predicts an exam score from planned study hours"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/hoursInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hours you plan to study"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/predictButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Predict My Score"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter hours and tap Predict"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+</LinearLayout>
